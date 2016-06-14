@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAFE006A1D109437008C4F02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE00691D109437008C4F02 /* main.m */; };
+		CAFE006D1D109437008C4F02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE006C1D109437008C4F02 /* AppDelegate.m */; };
+		CAFE00701D109437008C4F02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE006F1D109437008C4F02 /* ViewController.m */; };
+		CAFE00731D109437008C4F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE00711D109437008C4F02 /* Main.storyboard */; };
+		CAFE00751D109437008C4F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFE00741D109437008C4F02 /* Assets.xcassets */; };
+		CAFE00781D109437008C4F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFE00761D109437008C4F02 /* LaunchScreen.storyboard */; };
+		CAFE00831D109437008C4F02 /* ZJLAttachBubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE00821D109437008C4F02 /* ZJLAttachBubbleTests.m */; };
+		CAFE008E1D109437008C4F02 /* ZJLAttachBubbleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE008D1D109437008C4F02 /* ZJLAttachBubbleUITests.m */; };
+		CAFE009D1D10948E008C4F02 /* ZJLAttachBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFE009C1D10948E008C4F02 /* ZJLAttachBubble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFE007F1D109437008C4F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFE005D1D109437008C4F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFE00641D109437008C4F02;
+			remoteInfo = ZJLAttachBubble;
+		};
+		CAFE008A1D109437008C4F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFE005D1D109437008C4F02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFE00641D109437008C4F02;
+			remoteInfo = ZJLAttachBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAFE00651D109437008C4F02 /* ZJLAttachBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLAttachBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFE00691D109437008C4F02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAFE006B1D109437008C4F02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAFE006C1D109437008C4F02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAFE006E1D109437008C4F02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAFE006F1D109437008C4F02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAFE00721D109437008C4F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFE00741D109437008C4F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFE00771D109437008C4F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFE00791D109437008C4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFE007E1D109437008C4F02 /* ZJLAttachBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAttachBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFE00821D109437008C4F02 /* ZJLAttachBubbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLAttachBubbleTests.m; sourceTree = "<group>"; };
+		CAFE00841D109437008C4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFE00891D109437008C4F02 /* ZJLAttachBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLAttachBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFE008D1D109437008C4F02 /* ZJLAttachBubbleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLAttachBubbleUITests.m; sourceTree = "<group>"; };
+		CAFE008F1D109437008C4F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFE009B1D10948E008C4F02 /* ZJLAttachBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLAttachBubble.h; sourceTree = "<group>"; };
+		CAFE009C1D10948E008C4F02 /* ZJLAttachBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLAttachBubble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFE00621D109437008C4F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE007B1D109437008C4F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE00861D109437008C4F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFE005C1D109437008C4F02 = {
+			isa = PBXGroup;
+			children = (
+				CAFE00671D109437008C4F02 /* ZJLAttachBubble */,
+				CAFE00811D109437008C4F02 /* ZJLAttachBubbleTests */,
+				CAFE008C1D109437008C4F02 /* ZJLAttachBubbleUITests */,
+				CAFE00661D109437008C4F02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFE00661D109437008C4F02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE00651D109437008C4F02 /* ZJLAttachBubble.app */,
+				CAFE007E1D109437008C4F02 /* ZJLAttachBubbleTests.xctest */,
+				CAFE00891D109437008C4F02 /* ZJLAttachBubbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFE00671D109437008C4F02 /* ZJLAttachBubble */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE006B1D109437008C4F02 /* AppDelegate.h */,
+				CAFE006C1D109437008C4F02 /* AppDelegate.m */,
+				CAFE006E1D109437008C4F02 /* ViewController.h */,
+				CAFE006F1D109437008C4F02 /* ViewController.m */,
+				CAFE00711D109437008C4F02 /* Main.storyboard */,
+				CAFE00741D109437008C4F02 /* Assets.xcassets */,
+				CAFE00761D109437008C4F02 /* LaunchScreen.storyboard */,
+				CAFE009B1D10948E008C4F02 /* ZJLAttachBubble.h */,
+				CAFE009C1D10948E008C4F02 /* ZJLAttachBubble.m */,
+				CAFE00791D109437008C4F02 /* Info.plist */,
+				CAFE00681D109437008C4F02 /* Supporting Files */,
+			);
+			path = ZJLAttachBubble;
+			sourceTree = "<group>";
+		};
+		CAFE00681D109437008C4F02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE00691D109437008C4F02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAFE00811D109437008C4F02 /* ZJLAttachBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE00821D109437008C4F02 /* ZJLAttachBubbleTests.m */,
+				CAFE00841D109437008C4F02 /* Info.plist */,
+			);
+			path = ZJLAttachBubbleTests;
+			sourceTree = "<group>";
+		};
+		CAFE008C1D109437008C4F02 /* ZJLAttachBubbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFE008D1D109437008C4F02 /* ZJLAttachBubbleUITests.m */,
+				CAFE008F1D109437008C4F02 /* Info.plist */,
+			);
+			path = ZJLAttachBubbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFE00641D109437008C4F02 /* ZJLAttachBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFE00921D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubble" */;
+			buildPhases = (
+				CAFE00611D109437008C4F02 /* Sources */,
+				CAFE00621D109437008C4F02 /* Frameworks */,
+				CAFE00631D109437008C4F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLAttachBubble;
+			productName = ZJLAttachBubble;
+			productReference = CAFE00651D109437008C4F02 /* ZJLAttachBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFE007D1D109437008C4F02 /* ZJLAttachBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFE00951D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubbleTests" */;
+			buildPhases = (
+				CAFE007A1D109437008C4F02 /* Sources */,
+				CAFE007B1D109437008C4F02 /* Frameworks */,
+				CAFE007C1D109437008C4F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFE00801D109437008C4F02 /* PBXTargetDependency */,
+			);
+			name = ZJLAttachBubbleTests;
+			productName = ZJLAttachBubbleTests;
+			productReference = CAFE007E1D109437008C4F02 /* ZJLAttachBubbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFE00881D109437008C4F02 /* ZJLAttachBubbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFE00981D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubbleUITests" */;
+			buildPhases = (
+				CAFE00851D109437008C4F02 /* Sources */,
+				CAFE00861D109437008C4F02 /* Frameworks */,
+				CAFE00871D109437008C4F02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFE008B1D109437008C4F02 /* PBXTargetDependency */,
+			);
+			name = ZJLAttachBubbleUITests;
+			productName = ZJLAttachBubbleUITests;
+			productReference = CAFE00891D109437008C4F02 /* ZJLAttachBubbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFE005D1D109437008C4F02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhongZhongzhong;
+				TargetAttributes = {
+					CAFE00641D109437008C4F02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+					};
+					CAFE007D1D109437008C4F02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFE00641D109437008C4F02;
+					};
+					CAFE00881D109437008C4F02 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D667J2X7L2;
+						TestTargetID = CAFE00641D109437008C4F02;
+					};
+				};
+			};
+			buildConfigurationList = CAFE00601D109437008C4F02 /* Build configuration list for PBXProject "ZJLAttachBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFE005C1D109437008C4F02;
+			productRefGroup = CAFE00661D109437008C4F02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFE00641D109437008C4F02 /* ZJLAttachBubble */,
+				CAFE007D1D109437008C4F02 /* ZJLAttachBubbleTests */,
+				CAFE00881D109437008C4F02 /* ZJLAttachBubbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFE00631D109437008C4F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFE00781D109437008C4F02 /* LaunchScreen.storyboard in Resources */,
+				CAFE00751D109437008C4F02 /* Assets.xcassets in Resources */,
+				CAFE00731D109437008C4F02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE007C1D109437008C4F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE00871D109437008C4F02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFE00611D109437008C4F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFE00701D109437008C4F02 /* ViewController.m in Sources */,
+				CAFE009D1D10948E008C4F02 /* ZJLAttachBubble.m in Sources */,
+				CAFE006D1D109437008C4F02 /* AppDelegate.m in Sources */,
+				CAFE006A1D109437008C4F02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE007A1D109437008C4F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFE00831D109437008C4F02 /* ZJLAttachBubbleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFE00851D109437008C4F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFE008E1D109437008C4F02 /* ZJLAttachBubbleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFE00801D109437008C4F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFE00641D109437008C4F02 /* ZJLAttachBubble */;
+			targetProxy = CAFE007F1D109437008C4F02 /* PBXContainerItemProxy */;
+		};
+		CAFE008B1D109437008C4F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFE00641D109437008C4F02 /* ZJLAttachBubble */;
+			targetProxy = CAFE008A1D109437008C4F02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFE00711D109437008C4F02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFE00721D109437008C4F02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFE00761D109437008C4F02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFE00771D109437008C4F02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFE00901D109437008C4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFE00911D109437008C4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFE00931D109437008C4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAttachBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFE00941D109437008C4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLAttachBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFE00961D109437008C4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAttachBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAttachBubble.app/ZJLAttachBubble";
+			};
+			name = Debug;
+		};
+		CAFE00971D109437008C4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLAttachBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLAttachBubble.app/ZJLAttachBubble";
+			};
+			name = Release;
+		};
+		CAFE00991D109437008C4F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAttachBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAttachBubble;
+			};
+			name = Debug;
+		};
+		CAFE009A1D109437008C4F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLAttachBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZJLAttachBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLAttachBubble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFE00601D109437008C4F02 /* Build configuration list for PBXProject "ZJLAttachBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFE00901D109437008C4F02 /* Debug */,
+				CAFE00911D109437008C4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFE00921D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFE00931D109437008C4F02 /* Debug */,
+				CAFE00941D109437008C4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFE00951D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFE00961D109437008C4F02 /* Debug */,
+				CAFE00971D109437008C4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAFE00981D109437008C4F02 /* Build configuration list for PBXNativeTarget "ZJLAttachBubbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFE00991D109437008C4F02 /* Debug */,
+				CAFE009A1D109437008C4F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFE005D1D109437008C4F02 /* Project object */;
+}
