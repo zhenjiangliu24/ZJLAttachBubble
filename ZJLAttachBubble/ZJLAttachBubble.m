@@ -49,8 +49,8 @@ static const CGFloat BubbleWidth = 60.0f;
         
         [self startBreathing];
         
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(bubbleTap:)];
-        [self addGestureRecognizer:tap];
+//        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(bubbleTap:)];
+//        [self addGestureRecognizer:tap];
     }
     return self;
 }
@@ -81,7 +81,11 @@ static const CGFloat BubbleWidth = 60.0f;
     UITouch *finger = [touches anyObject];
     self.endPoint = [finger locationInView:self.superview];
     if (fabs(self.startPoint.x-self.endPoint.x)<10 && fabs(self.startPoint.y-self.endPoint.y)<10) {
-        
+        [UIView animateWithDuration:0.5 animations:^{
+            self.imageView.transform = CGAffineTransformMakeRotation(M_PI);
+        } completion:^(BOOL finished) {
+            self.imageView.transform = CGAffineTransformIdentity;
+        }];
     }
     self.center = self.endPoint;
     CGFloat superWidth = self.superview.bounds.size.width;
@@ -121,15 +125,15 @@ static const CGFloat BubbleWidth = 60.0f;
     [self.animator addBehavior:attach];
 }
 
-#pragma mark - bubble tap
-- (void)bubbleTap:(UITapGestureRecognizer *)tap
-{
-    [UIView animateWithDuration:0.5 animations:^{
-        self.imageView.transform = CGAffineTransformMakeRotation(M_PI);
-    } completion:^(BOOL finished) {
-        self.imageView.transform = CGAffineTransformIdentity;
-    }];
-}
+//#pragma mark - bubble tap
+//- (void)bubbleTap:(UITapGestureRecognizer *)tap
+//{
+//    [UIView animateWithDuration:0.5 animations:^{
+//        self.imageView.transform = CGAffineTransformMakeRotation(M_PI);
+//    } completion:^(BOOL finished) {
+//        self.imageView.transform = CGAffineTransformIdentity;
+//    }];
+//}
 
 #pragma mark - bubble breathing
 
